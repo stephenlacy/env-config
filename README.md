@@ -48,9 +48,9 @@ console.log(JSON.stringify(cfg, null, 2));
 
 ``` shell
 // ENV variable runtime overrides:
-export APP_API_URL='http://localhost:3000'
-export APP_MYSQL_PORT='5432'
-export APP_STRIPE_PUBLIC_TOKEN='token_'
+export API_URL='http://localhost:3000'
+export MYSQL_PORT='5432'
+export STRIPE_PUBLIC_TOKEN='token_'
 
 ```
 #### Output:
